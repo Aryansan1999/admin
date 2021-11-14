@@ -9,27 +9,27 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
-
+public class add_item extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_add_item);
+
         BottomNavigationView bottomNavigationView=findViewById(R.id.bottomNavigation);
-        bottomNavigationView.setSelectedItemId(R.id.orders);
+        bottomNavigationView.setSelectedItemId(R.id.addItem);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch(item.getItemId()){
                     case R.id.orders:
+                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        overridePendingTransition(0,0);
                         return true;
 
 
                     case R.id.addItem:
-                        startActivity(new Intent(getApplicationContext(),add_item.class));
-                        overridePendingTransition(0,0);
                         return true;
 
                     case R.id.stock:
@@ -40,5 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
     }
 }
