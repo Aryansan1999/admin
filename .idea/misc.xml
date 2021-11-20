@@ -3,13 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/drawable/boundary.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/drawable/button_shape.xml" value="0.10260416666666666" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/drawable/selector.xml" value="0.1814814814814815" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/activity_add_item.xml" value="0.165625" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/drawable/store_mall.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/activity_add_item.xml" value="0.22" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/activity_stocks.xml" value="0.1796875" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/add_item_single.xml" value="0.1796875" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/fragment_add_item.xml" value="0.165625" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/fragment_orders.xml" value="0.165625" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/fragment_stock.xml" value="0.1796875" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/single_stock.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/layout/tabs.xml" value="0.22" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/admin/app/src/main/res/menu/menu_navigation.xml" value="0.2046875" />
       </map>

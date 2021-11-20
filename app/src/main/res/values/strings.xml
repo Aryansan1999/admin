@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">admin</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="unit">
+        <item>Kg</item>
+        <item>Dozen</item>
+        <item>Quantity</item>
+    </string-array>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="stock">STOCK</string>
     <string name="add_item">Add Item</string>
     <string name="orders">Orders</string>
     <string name="home">Home</string>
     <string name="about">About</string>
+    <string name="fruit_price">Fruit Price</string>
+    <string name="add">ADD</string>
 </resources>

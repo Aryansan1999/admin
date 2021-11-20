@@ -4,15 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".add_item">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_item"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
@@ -23,5 +17,107 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_navigation" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="106dp"
+        android:gravity="right"
+        android:text="ITEM"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/fruitName_insert"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/boundary"
+        android:ems="10"
+        android:hint="Fruit Name"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/fruitPrice_insert"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fruitName_insert"
+        android:layout_alignEnd="@+id/fruitName_insert"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/boundary"
+        android:ems="10"
+        android:hint="@string/fruit_price"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <Spinner
+        android:id="@+id/spinner_unit"
+        android:layout_width="166dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/fruitPrice_insert"
+        android:layout_alignEnd="@+id/fruitPrice_insert"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/boundary"
+        android:spinnerMode="dialog" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="346dp"
+        android:layout_height="603dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-149dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="56dp"
+        app:srcCompat="@drawable/addimage" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spinner_unit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/add" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spinner_unit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="47dp"
+        android:text="unit"
+        android:textSize="16sp" />
 
 </RelativeLayout>
